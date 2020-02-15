@@ -11,7 +11,6 @@ import (
 var (
 	ErrNoKey                = errors.New("no resource key provided")
 	ErrNoValue              = errors.New("no value provided")
-	ErrNoAddress            = errors.New("no server address provided")
 	ErrNoPort               = errors.New("no server port provided")
 	ErrPortOutOfRange       = errors.New("port must be between 1024 and 49151")
 	ErrBackendNotRecognized = errors.New("backend key not recognized")

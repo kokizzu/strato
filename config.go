@@ -7,7 +7,7 @@ type ServerConfig struct {
 	RedisUrl string
 }
 
-func (c *ServerConfig) Validate() error {
+func (c *ServerConfig) validate() error {
 	if c.Port == 0 {
 		return ErrNoPort
 	}

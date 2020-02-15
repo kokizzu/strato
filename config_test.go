@@ -21,7 +21,7 @@ func TestConfigInstantiation(t *testing.T) {
 		}
 
 		for _, tc := range testCases {
-			is.Equal(tc.config.Validate(), tc.err)
+			is.Equal(tc.config.validate(), tc.err)
 		}
 	})
 }
